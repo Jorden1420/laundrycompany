@@ -5,9 +5,9 @@ function Footer() {
 
   return (
     <footer className="py-3 text-center mt-4">
-      <p className="p-3">
-        Copyright &copy; {today.getFullYear()} The Laundry Company | All Rights
-        Reserved.
+      <p className="py-2">
+        Copyright &copy; {today.getFullYear()} The Laundry Company Carmichael |
+        All Rights Reserved.
       </p>
     </footer>
   );
