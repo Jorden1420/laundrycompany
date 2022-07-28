@@ -7,13 +7,13 @@ const Gallery = (props) => {
   props.galleryNode(scrollDiv);
 
   const imageArray = [
-    "/images/galleryphotos/galleryimage (1).webp",
-    "/images/galleryphotos/galleryimage (2).webp",
-    "/images/galleryphotos/galleryimage (3).webp",
-    "/images/galleryphotos/galleryimage (4).webp",
-    "/images/galleryphotos/galleryimage (5).webp",
-    "/images/galleryphotos/galleryimage (6).webp",
-    "/images/galleryphotos/galleryimage (7).webp",
+    "/images/galleryphotos/galleryimage (1).jpg",
+    "/images/galleryphotos/galleryimage (2).jpg",
+    "/images/galleryphotos/galleryimage (3).jpg",
+    "/images/galleryphotos/galleryimage (4).jpg",
+    "/images/galleryphotos/galleryimage (5).jpg",
+    "/images/galleryphotos/galleryimage (6).jpg",
+    "/images/galleryphotos/galleryimage (7).jpg",
   ];
   return (
     <div className="gallery-container" ref={(node) => setScrollDiv(node)}>
