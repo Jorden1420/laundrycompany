@@ -4,7 +4,7 @@ import Header from "../../common/Header";
 import Footer from "../../common/Footer";
 
 import Gallery from "../Gallery/Gallery";
-import Pricing from "../Pricing/Pricing";
+// import Pricing from "../Pricing/Pricing";
 
 import { Image, Card } from "react-bootstrap";
 
@@ -67,7 +67,7 @@ const Home = () => {
               </div>
             </div>
             {/* Pricing Container */}
-            <Pricing node={scrollDiv} pricingNode={pricingData} />
+            {/* <Pricing node={scrollDiv} pricingNode={pricingData} /> */}
             <div className="super-wash-info">
               <h1 className="text-center py-4" id="unique">
                 Why Super Wash n Dry?

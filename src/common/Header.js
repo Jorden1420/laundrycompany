@@ -37,7 +37,7 @@ const Header = (props) => {
           </div>
           <div className="menu-items">
             <ul>
-              <li onClick={() => scrollToPricingNode()}>Pricing</li>
+              {/* <li onClick={() => scrollToPricingNode()}>Pricing</li> */}
               <li onClick={() => scrollToChildNode()}>Gallery</li>
               <li onClick={() => scrollToNode()}>Contact Us</li>
             </ul>
